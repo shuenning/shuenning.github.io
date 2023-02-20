@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>CIC_teaching_materials</title>
+<style>
+body {background-image: url('crescendo_college.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;}
+</style>
+<script>
+function validateForm() { 
+  let x = document.forms["myform']['id'].value;
+  if (x == " ") {
+     alert("Please fill in the form.");
+     return false;
+  }
+}
+</script>
+</head>
+<body>
+<center>
+<img src=crescendo_logo.jpg height=300 width=300>
+<br>
+<form name="myform" action"/action_page.php" onbutton="return validateForm()">
+<p style="background-color:white; width:30%; height:20%; topmargin:50; font-size:160%;">
+<br>
+<b>Student ID:</b> <input type=text name=id>
+<br><br>
+<b>Password:</b> <input type=password name=user-password>
+<br><br><br>
+<input type="button" onclick="location.href='dashboard.html';" value="Log In"/>
+<br><br>
+</form>
+</center>
+</body>
+</html>
