@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University of Trinity</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="badge.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      window.addEventListener("scroll", function() {
+      if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+      } else {
+      header.classList.remove("sticky");
+      }
+      });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="banner">
+      <div id="logo">
+          <img src="badge.jpg" alt="University of Trinity badge">
+          <span>University<br>of Trinity</span>
+        </a>
+      </div>
+      <div class="menu">
+      <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="programmes.html">PROGRAMMES</a></li>
+      <li><a href="newsevents.html">NEWS & EVENTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <section class="sub-header">
+		<h1><br><br><br>News & Events</h1>
+	</section>
+
+    <section class="newsevents">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news1.png" class="img-fluid">
+              <div class="box-content">
+                <h6>University of Trinity in partnership with Code First Girls</h6>
+                <p>University of Trinity is hosting a number of events and activities during the first week of March as part of International Women’s Day.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news2.jpg" class="img-fluid">
+              <div class="box-content">
+                <h6>Film, Television and Media students visit XPLOR Centre for Virtual Production</h6>
+                <p>Film, Television and Media students from University of Trinity recently had the opportunity to attend a training day at the XPLOR Centre for Virtual Production: one of the largest production and research centres of its kind in Northern England.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news3.png" class="img-fluid">
+              <div class="box-content">
+                <h6>Mosaic artwork brings strories to life</h6>
+                <p>The ‘Little Bits of God’ artwork is currently being hosted in the Chapel at University of Trinity and helps bring scriptures and key gospels to life in a modern and engaging way.</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news4.jpg" class="img-fluid">
+              <div class="box-content">
+                <h6>Bank of England event held at University of Trinity</h6>
+                <p>A Bank of England Citizens’ Panel has been held in Trinity to explore the cost of living crisis with students.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news5.jpg" class="img-fluid">
+              <div class="box-content">
+                <h6>University of Trinity alumnus and Professor receive recognition Leads</h6>
+                <p>University of Trinity alumnus Fr Marc Pitson has been ordained to the priesthood, and Revd Professor Jane de Gay has been appointed Associate Priest and Lecturer at Leeds Minster.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="box">
+              <img src="news6.png" class="img-fluid">
+              <div class="box-content">
+                <h6>Writer's Festival providing opportunities to work with professional storytellers</h6>
+                <p>The University of Trinity Writers’ Festival is an annual event made up of readings, a book stall and masterclass workshops in creative writing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+		<p>@University of Trinity | 2023 | All Right Reserved</p>
+	</footer>
+
+  </body>
+</html>

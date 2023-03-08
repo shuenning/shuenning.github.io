@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University of Trinity</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="badge.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+  
+        window.addEventListener("scroll", function() {
+        if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        } else {
+        header.classList.remove("sticky");
+        }
+        });
+        });
+    </script>
+  </head>
+
+  <body>
+    <div id="banner">
+      <div id="logo">
+          <img src="badge.jpg" alt="University of Trinity badge">
+          <span>University<br>of Trinity</span>
+        </a>
+      </div>
+      <div class="menu">
+      <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="programmes.html">PROGRAMMES</a></li>
+      <li><a href="newsevents.html">NEWS & EVENTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <section class="sub-header">
+		<h1><br><br><br>Facilities</h1>
+	</section>
+
+    <section class="facilities">
+        <div class="row">
+            <div class="facilities-col">
+                <img src="lecturetheatre.jpg">
+                <h3>Lecture Thaetre</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="library.jpg" height="255">
+                <h3>Library</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="classroom.jpg">
+                <h3>Classroom</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="computerlab.jpg" height="240">
+                <h3>Computer Lab</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.jpg" height="240">
+                <h3>Cafeteria</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="dance studio.jpg" height="240">
+                <h3>Dance Studio</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>@University of Trinity | 2023 | All Right Reserved</p>
+    </footer>
+
+  </body>
+</html>
+      

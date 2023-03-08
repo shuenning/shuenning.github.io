@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University of Trinity</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="badge.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      window.addEventListener("scroll", function() {
+      if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+      } 
+      else {
+      header.classList.remove("sticky");
+      }
+      });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="banner">
+      <div id="logo">
+          <img src="badge.jpg" alt="University of Trinity badge">
+          <span>University<br>of Trinity</span>
+      </div>
+      <div class="menu">
+      <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="programmes.html">PROGRAMMES</a></li>
+      <li><a href="newsevents.html">NEWS & EVENTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <section class="header">
+      <div class="text-box">
+        <h1>BUILD YOUR FUTURE<br><h2>at University of Trinity</h2></h1>
+      </div>  
+    </section>
+
+    <section class="intro-container">
+      <div class="intro-img">
+        <img src="home.jpg"> 
+      </div>
+      <div class="intro-text">
+        <h2>
+          There is more to life at University of Trinity than studying and attending lectures. 
+          It’s about making new friends, experiencing new things, and getting the most out of living and learning.
+        </h2>
+        <h4>Going to university is a big deal, and we know how important it is that you have the best time while you’re with us. 
+        Time and time again, our students say that at Trinity you’re ‘a name, not a number’ – and it’s true.
+        <br><br>
+        Our smaller class sizes mean you get more personal support and space to develop your learning skills. 
+        Our close-knit campus has a welcoming and lively community spirit, with great facilities and everything you need for university life.
+        <br><br>
+        We pride ourselves on givng an inspirational student experience and providing the platform our students need to succeed, 
+        regardless of their plans for the future. That’s why we’re in the top 20 in the UK for student experience (The Times and The Sunday Times Good University Guide 2023).
+        </h4>
+
+      </div>
+    </section>
+
+    <section class="programmes">
+    <h1>Our Programmes</h1>
+    <div class="row">
+    <div class="programmes-col">
+    <h3>Foundation</h3>
+    <ul>
+    <li>Foundation in Business</li>
+    </ul>
+    </div>
+    <div class="programmes-col">
+    <h3>Diploma</h3>
+    <ul>
+    <li>Diploma in Business Management</li>
+    </ul>
+    </div>
+    <div class="programmes-col">
+    <h3>Degree</h3>
+    <ul>
+    <li>Bachelor of Science (Honours) in Business Management</li>
+    </ul>
+    </div>
+    </div>
+    </section>
+
+    <section class="newsevents">
+    <h1>News & Events</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="box">
+          <img src="news1.png" class="img-fluid">
+          <div class="box-content">
+            <h6>University of Trinity in partnership with Code First Girls</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box">
+          <img src="news2.jpg" class="img-fluid">
+          <div class="box-content">
+            <h6>Film, Television and Media students visit XPLOR Centre for Virtual Production</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box">
+          <img src="news3.png" class="img-fluid">
+          <div class="box-content">
+            <h6>Mosaic artwork brings strories to life</h6>
+          </div>
+        </div>
+      </div>
+   </div> 
+
+   <div class="row">
+     <div class="col-sm-4">
+       <div class="box">
+         <img src="news4.jpg" class="img-fluid">
+         <div class="box-content">
+           <h6>Bank of England event held at University of Trinity</h6>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-sm-4">
+       <div class="box">
+         <img src="news5.jpg" class="img-fluid">
+         <div class="box-content">
+           <h6>University of Trinity alumnus and Professor receive recognition Leads</h6>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-sm-4">
+       <div class="box">
+         <img src="news6.png" class="img-fluid">
+         <div class="box-content">
+           <h6>Writer's Festival providing opportunities to work with professional storytellers</h6>
+         </div>
+       </div>
+     </div>
+    </div>
+    </section>  
+
+    <footer>
+      <p>@University of Trinity | 2023 | All Right Reserved</p>
+   </footer>
+
+  </body>
+</html>
