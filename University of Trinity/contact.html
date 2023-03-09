@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University of Trinity</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="badge.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+  
+        window.addEventListener("scroll", function() {
+        if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        } else {
+        header.classList.remove("sticky");
+        }
+        });
+        });
+
+        function showMessage() {
+			alert("We will contact you soon!");
+		}
+    </script>
+  </head>
+
+  <body>
+    <div id="banner">
+      <div id="logo">
+          <img src="badge.jpg" alt="University of Trinity badge">
+          <span>University<br>of Trinity</span>
+      </div>
+      <div class="menu">
+      <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="programmes.html">PROGRAMMES</a></li>
+      <li><a href="newsevents.html">NEWS & EVENTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <section class="sub-header">
+		<h1><br><br><br>Contact Us</h1>
+	</section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64948864.67993745!2d-68.33496093749994!3d6.500899137995969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d6551f3e79d%3A0x2c090ab2140c87db!2sTRINITY%20UNIVERSITY%20CAMPUS!5e0!3m2!1sen!2smy!4v1678262257272!5m2!1sen!2smy" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>1 FFF Rd, Off Alara St</h5>
+                    <p>Sabo yaba 100001, Lagos, Nigeria</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+5 55648961</h5>
+                    <p>Monday to Saturday, 10AM to 6AM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@universityoftrinity.com</h5>
+                    <p>Email us you query</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter you name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter you subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn" onclick="showMessage()">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+    
+    <footer>
+		<p>@University of Trinity | 2023 | All Right Reserved</p>
+	</footer>
+
+  </body>
+</html>
